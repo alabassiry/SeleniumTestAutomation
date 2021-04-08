@@ -1,0 +1,166 @@
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "New Product",
+    "type": "New Product Type",
+    "price": 10,
+    "shipping": 5,
+    "upc": "N/A",
+    "description": "New Product All in One",
+    "manufacturer": "China",
+    "model": "A1",
+    "url": "N/A",
+    "image": "N/A"
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Allow: GET,POST,PUT,PATCH,DELETE
+Vary: Accept, Accept-Encoding
+Content-Type: application/json; charset=utf-8
+Content-Length: 276
+ETag: W/"114-BETwSL5YVaEF+FyfV0oLYSRFsP4"
+Date: Thu, 08 Apr 2021 21:20:58 GMT
+Connection: keep-alive
+
+{
+    "id": 9999712,
+    "name": "New Product",
+    "type": "New Product Type",
+    "price": 10,
+    "shipping": 5,
+    "upc": "N/A",
+    "description": "New Product All in One",
+    "manufacturer": "China",
+    "model": "A1",
+    "url": "N/A",
+    "image": "N/A",
+    "updatedAt": "2021-04-08T21:20:58.352Z",
+    "createdAt": "2021-04-08T21:20:58.352Z"
+}
+Request method:	GET
+Request URI:	http://localhost:3030/products?id=9999712
+Proxy:			<none>
+Request params:	id=9999712
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Allow: GET,POST,PUT,PATCH,DELETE
+Vary: Accept, Accept-Encoding
+Content-Type: application/json; charset=utf-8
+Content-Length: 333
+ETag: W/"14d-1LdCqRzlCA5fTnfLlfEBGLofXZE"
+Date: Thu, 08 Apr 2021 21:20:59 GMT
+Connection: keep-alive
+
+{
+    "total": 1,
+    "limit": 10,
+    "skip": 0,
+    "data": [
+        {
+            "id": 9999712,
+            "name": "New Product",
+            "type": "New Product Type",
+            "price": 10,
+            "upc": "N/A",
+            "shipping": 5,
+            "description": "New Product All in One",
+            "manufacturer": "China",
+            "model": "A1",
+            "url": "N/A",
+            "image": "N/A",
+            "createdAt": "2021-04-08T21:20:58.352Z",
+            "updatedAt": "2021-04-08T21:20:58.352Z",
+            "categories": [
+                
+            ]
+        }
+    ]
+}
+Request method:	DELETE
+Request URI:	http://localhost:3030/products?id=9999712
+Proxy:			<none>
+Request params:	id=9999712
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Allow: GET,POST,PUT,PATCH,DELETE
+Vary: Accept, Accept-Encoding
+Content-Type: application/json; charset=utf-8
+Content-Length: 278
+ETag: W/"116-EHtkapnocf5RZcL9FapVt2Xlvgg"
+Date: Thu, 08 Apr 2021 21:20:59 GMT
+Connection: keep-alive
+
+[
+    {
+        "id": 9999712,
+        "name": "New Product",
+        "type": "New Product Type",
+        "price": 10,
+        "upc": "N/A",
+        "shipping": 5,
+        "description": "New Product All in One",
+        "manufacturer": "China",
+        "model": "A1",
+        "url": "N/A",
+        "image": "N/A",
+        "createdAt": "2021-04-08T21:20:58.352Z",
+        "updatedAt": "2021-04-08T21:20:58.352Z"
+    }
+]
+Request method:	GET
+Request URI:	http://localhost:3030/products?id=9999712
+Proxy:			<none>
+Request params:	id=9999712
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Allow: GET,POST,PUT,PATCH,DELETE
+Vary: Accept, Accept-Encoding
+Content-Type: application/json; charset=utf-8
+Content-Length: 41
+ETag: W/"29-wvD3r5ZFfIWlgjxrzCoRtfXXzZo"
+Date: Thu, 08 Apr 2021 21:20:59 GMT
+Connection: keep-alive
+
+{
+    "total": 0,
+    "limit": 10,
+    "skip": 0,
+    "data": [
+        
+    ]
+}

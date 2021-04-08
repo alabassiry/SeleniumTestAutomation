@@ -42,7 +42,8 @@ This is a fully functional E2E and API workspace for testing and reuse.
 	14.    Restart your PC
 	15.    Open Eclipse and create a workspace on the parent directory for the project folder (InstabugTask) so your project path should be: (~\<Workspace>\InstabugTask)
 	16.    Import the project InstabugTask
-	17.    You can now start testing!
+	17.    In Eclipse, go to Window -> Preferences -> TestNG and untick "Use project TestNG jar" checkbox
+	18.    You can now start testing!
 
 ### Test cases for UI
 

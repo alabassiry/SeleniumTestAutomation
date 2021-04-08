@@ -8,7 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 public class Commons {
-	public static String APILogsDirectory = "../APITestLogs/";
+	public static String APILogsDirectory = "APITestLogs/";
 	
 	public String getXpath(WebElement element) {
 		int n = element.findElements(By.xpath("./ancestor::*")).size();
