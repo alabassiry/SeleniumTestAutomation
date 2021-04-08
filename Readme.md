@@ -109,4 +109,4 @@ $ mvn test -PAPIRegression
 Report can be found in "..\reports"
 
 ### API log files
-Log files acan be found in "..\APITestLogs"
+Log files acan be found in "\APITestLogs"
