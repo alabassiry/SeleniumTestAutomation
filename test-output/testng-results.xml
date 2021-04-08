@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="9" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression" duration-ms="107648" started-at="2021-04-08T20:32:07Z" finished-at="2021-04-08T20:33:55Z">
+    <groups>
+    </groups>
+    <test name="AdvancePlus on Edge" duration-ms="107648" started-at="2021-04-08T20:32:07Z" finished-at="2021-04-08T20:33:55Z">
+      <class name="helper.TesterPresent">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:helper.TesterPresent@340f438e]" name="beforeSuite" is-config="true" duration-ms="161" started-at="2021-04-08T22:32:07Z" finished-at="2021-04-08T22:32:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:helper.TesterPresent@340f438e]" name="afterSuite" is-config="true" duration-ms="25" started-at="2021-04-08T22:33:55Z" finished-at="2021-04-08T22:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- helper.TesterPresent -->
+      <class name="com.AdvancePlus.Test.TST_T3">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T3@5b464ce8]" name="setup" is-config="true" duration-ms="1336" started-at="2021-04-08T22:33:26Z" finished-at="2021-04-08T22:33:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[online]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[marwan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T3@5b464ce8]" name="test" duration-ms="9148" started-at="2021-04-08T22:33:27Z" data-provider="loginData" finished-at="2021-04-08T22:33:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ymcwiufyqu_1617566921@tfbnw.net]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[p@$$w33dsdasdas]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'The password that you')]"}
+  (Session info: MicrosoftEdge=89.0.774.68)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D7UD8L1', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 89.0.774.68, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:51325}, msedge: {msedgedriverVersion: 88.0.705.81 (324d415ccf2f0d..., userDataDir: C:\Users\marwa\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6fa82248f6c84f0184ace5318a0c9a09
+*** Element info: {Using=xpath, value=//div[contains(text(),'The password that you')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'The password that you')]"}
+  (Session info: MicrosoftEdge=89.0.774.68)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-D7UD8L1', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 89.0.774.68, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:51325}, msedge: {msedgedriverVersion: 88.0.705.81 (324d415ccf2f0d..., userDataDir: C:\Users\marwa\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6fa82248f6c84f0184ace5318a0c9a09
+*** Element info: {Using=xpath, value=//div[contains(text(),'The password that you')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+	at com.AdvancePlus.Test.TST_T3.test(TST_T3.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="cleanup(org.testng.ITestResult, java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T3@5b464ce8]" name="cleanup" is-config="true" duration-ms="4507" started-at="2021-04-08T22:33:36Z" finished-at="2021-04-08T22:33:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=FAILURE method=TST_T3.test(java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T3@5b464ce8] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TST-R1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T3@5b464ce8]" name="setup" is-config="true" duration-ms="1364" started-at="2021-04-08T22:33:41Z" finished-at="2021-04-08T22:33:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[online]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[marwan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T3@5b464ce8]" name="test" duration-ms="10836" started-at="2021-04-08T22:33:42Z" data-provider="loginData" finished-at="2021-04-08T22:33:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ymcwiufyqu_1617566921@tfbnw.net]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="cleanup(org.testng.ITestResult, java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T3@5b464ce8]" name="cleanup" is-config="true" duration-ms="1938" started-at="2021-04-08T22:33:53Z" finished-at="2021-04-08T22:33:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=TST_T3.test(java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T3@5b464ce8] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TST-R1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.AdvancePlus.Test.TST_T3 -->
+      <class name="com.AdvancePlus.Test.TST_T1">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T1@57829d67]" name="setup" is-config="true" duration-ms="3320" started-at="2021-04-08T22:32:09Z" finished-at="2021-04-08T22:32:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[online]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[marwan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T1@57829d67]" name="test" duration-ms="15560" started-at="2021-04-08T22:32:12Z" finished-at="2021-04-08T22:32:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[marwan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="cleanup(org.testng.ITestResult, java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T1@57829d67]" name="cleanup" is-config="true" duration-ms="2602" started-at="2021-04-08T22:32:28Z" finished-at="2021-04-08T22:32:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=TST_T1.test(java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T1@57829d67] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TST-R1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.AdvancePlus.Test.TST_T1 -->
+      <class name="com.AdvancePlus.Test.TST_T2">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.AdvancePlus.Test.TST_T2@30c7da1e]" name="preSetup" is-config="true" duration-ms="1071" started-at="2021-04-08T22:32:07Z" finished-at="2021-04-08T22:32:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.AdvancePlus.Test.TST_T3@5b464ce8]" name="preSetup" is-config="true" duration-ms="150" started-at="2021-04-08T22:32:08Z" finished-at="2021-04-08T22:32:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T2@30c7da1e]" name="setup" is-config="true" duration-ms="1377" started-at="2021-04-08T22:32:30Z" finished-at="2021-04-08T22:32:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[online]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[marwan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T2@30c7da1e]" name="test" duration-ms="6675" started-at="2021-04-08T22:32:32Z" data-provider="loginData" finished-at="2021-04-08T22:32:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sdfsdfasdf@tfbno.net]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@$$w33d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="cleanup(org.testng.ITestResult, java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T2@30c7da1e]" name="cleanup" is-config="true" duration-ms="1877" started-at="2021-04-08T22:32:38Z" finished-at="2021-04-08T22:32:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=TST_T2.test(java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T2@30c7da1e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TST-R1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T2@30c7da1e]" name="setup" is-config="true" duration-ms="1324" started-at="2021-04-08T22:32:40Z" finished-at="2021-04-08T22:32:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[online]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[marwan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T2@30c7da1e]" name="test" duration-ms="6116" started-at="2021-04-08T22:32:41Z" data-provider="loginData" finished-at="2021-04-08T22:32:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sdfsdfasdf@tfbno.net]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[p@$$w33d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="cleanup(org.testng.ITestResult, java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T2@30c7da1e]" name="cleanup" is-config="true" duration-ms="2165" started-at="2021-04-08T22:32:48Z" finished-at="2021-04-08T22:32:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=TST_T2.test(java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T2@30c7da1e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TST-R1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T2@30c7da1e]" name="setup" is-config="true" duration-ms="1316" started-at="2021-04-08T22:32:50Z" finished-at="2021-04-08T22:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[online]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[marwan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T2@30c7da1e]" name="test" duration-ms="5908" started-at="2021-04-08T22:32:51Z" data-provider="loginData" finished-at="2021-04-08T22:32:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@$$w33d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="cleanup(org.testng.ITestResult, java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T2@30c7da1e]" name="cleanup" is-config="true" duration-ms="1874" started-at="2021-04-08T22:32:57Z" finished-at="2021-04-08T22:32:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=TST_T2.test(java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T2@30c7da1e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TST-R1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T2@30c7da1e]" name="setup" is-config="true" duration-ms="1356" started-at="2021-04-08T22:32:59Z" finished-at="2021-04-08T22:33:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[online]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[marwan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T2@30c7da1e]" name="test" duration-ms="5723" started-at="2021-04-08T22:33:00Z" data-provider="loginData" finished-at="2021-04-08T22:33:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[p@$$w33d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="cleanup(org.testng.ITestResult, java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T2@30c7da1e]" name="cleanup" is-config="true" duration-ms="1788" started-at="2021-04-08T22:33:06Z" finished-at="2021-04-08T22:33:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=TST_T2.test(java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T2@30c7da1e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TST-R1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T2@30c7da1e]" name="setup" is-config="true" duration-ms="1359" started-at="2021-04-08T22:33:08Z" finished-at="2021-04-08T22:33:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[online]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[marwan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T2@30c7da1e]" name="test" duration-ms="6412" started-at="2021-04-08T22:33:09Z" data-provider="loginData" finished-at="2021-04-08T22:33:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sdfsdfasdf@tfbno.net]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="cleanup(org.testng.ITestResult, java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T2@30c7da1e]" name="cleanup" is-config="true" duration-ms="1783" started-at="2021-04-08T22:33:15Z" finished-at="2021-04-08T22:33:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=TST_T2.test(java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T2@30c7da1e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TST-R1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T2@30c7da1e]" name="setup" is-config="true" duration-ms="1452" started-at="2021-04-08T22:33:17Z" finished-at="2021-04-08T22:33:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[online]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[marwan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T2@30c7da1e]" name="test" duration-ms="5209" started-at="2021-04-08T22:33:19Z" data-provider="loginData" finished-at="2021-04-08T22:33:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="cleanup(org.testng.ITestResult, java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T2@30c7da1e]" name="cleanup" is-config="true" duration-ms="2018" started-at="2021-04-08T22:33:24Z" finished-at="2021-04-08T22:33:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=TST_T2.test(java.lang.String, java.lang.String)[pri:0, instance:com.AdvancePlus.Test.TST_T2@30c7da1e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TST-R1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.AdvancePlus.Test.TST_T2 -->
+    </test> <!-- AdvancePlus on Edge -->
+  </suite> <!-- Regression -->
+</testng-results>

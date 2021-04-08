@@ -1,0 +1,45 @@
+<!--######################################################################################################################################-->
+<!--                                      _          _____  _                   _____                                                     -->
+<!--                           /\        | |        |  __ \| |                 |  __ \                                                    -->
+<!--                          /  \  _   _| |_ ___   | |__) | | __ _ _ __ ______| |__) |   _ _ __  _ __   ___ _ __                         -->
+<!--                         / /\ \| | | | __/ _ \  |  ___/| |/ _` | '_ \______|  _  / | | | '_ \| '_ \ / _ \ '__|                        -->
+<!--                        / ____ \ |_| | || (_) | | |    | | (_| | | | |     | | \ \ |_| | | | | | | |  __/ |                           -->
+<!--                       /_/    \_\__,_|\__\___/  |_|    |_|\__,_|_| |_|     |_|  \_\__,_|_| |_|_| |_|\___|_|                           -->                                                                                            
+                                                                                            
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sanity" verbose="2">
+
+	<test name="AdvancePlus on Chrome">
+		<parameter name="browser" value="chrome" />
+		<parameter name="URL" value="https://www.facebook.com/" />
+		<parameter name="state" value="online" />
+		<parameter name="tester" value="marwan"/>
+		<parameter name="executionCycle" value="TST-R1"/>
+		<classes>
+			<class name="helper.TesterPresent" />
+			<class name="com.AdvancePlus.Test.TST_T1"/>
+		</classes>
+	</test>
+		<test name="AdvancePlus on Edge">
+		<parameter name="browser" value="edge" />
+		<parameter name="URL" value="https://www.facebook.com/" />
+		<parameter name="state" value="online" />
+		<parameter name="tester" value="marwan"/>
+		<parameter name="executionCycle" value="TST-R1"/>
+		<classes>
+			<class name="helper.TesterPresent" />
+			<class name="com.AdvancePlus.Test.TST_T1"/>
+		</classes>
+	</test>
+		<test name="AdvancePlus on Firefox">
+		<parameter name="browser" value="firefox" />
+		<parameter name="URL" value="https://www.facebook.com/" />
+		<parameter name="state" value="online" />
+		<parameter name="tester" value="marwan"/>
+		<parameter name="executionCycle" value="TST-R1"/>
+		<classes>
+			<class name="helper.TesterPresent" />
+			<class name="com.AdvancePlus.Test.TST_T1"/>
+		</classes>
+	</test>
+</suite>
